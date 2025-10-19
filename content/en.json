@@ -1,0 +1,83 @@
+{
+  "strings": {
+    "app_title": "Accident Aid India",
+    "hero_title": "Stay safe. Act fast.",
+    "hero_subtitle": "Tap a scenario to see what to do right now.",
+    "disclaimer": "Information for general awareness; not a substitute for professional medical advice or emergency response.",
+    "source_badge": "Aligned with NDMA/MoHFW/PESO basics • Works offline • No data collected",
+    "red_flags": "Red flags",
+    "source": "Sources"
+  },
+  "scenarios": [
+    {
+      "id": "burns_thermal",
+      "category": "🔥 Burns",
+      "title": "Thermal burn (cracker, flame, hot oil)",
+      "summary": "Act within seconds to reduce tissue damage.",
+      "do_now": [
+        "Cool the burn under running cool water for 20 minutes.",
+        "Remove tight items (rings/watches) near the area, not stuck fabric.",
+        "Cover loosely with clean non-fluffy cloth/gauze. Do not apply ice, toothpaste or ghee.",
+        "Call 108/112 if large/deep burn, face/hand/genital burn, or child/elderly."
+      ],
+      "red_flags": [
+        "Burn bigger than your palm",
+        "Soot in nose/mouth, hoarse voice",
+        "Electrical or chemical burn"
+      ],
+      "source": ["NDMA first-aid", "MoHFW basics"]
+    },
+    {
+      "id": "eye_injury_fireworks",
+      "category": "👁️ Eye",
+      "title": "Eye injury from fireworks",
+      "summary": "Avoid pressure; protect the eye and go to care quickly.",
+      "do_now": [
+        "Do not rub or rinse if globe injury suspected.",
+        "Shield the eye gently (paper cup/clean shield).",
+        "For chemical splash: flush with clean water 15–20 min, then seek care.",
+        "Call 112 or visit emergency ophthalmology if pain/blur/bleeding."
+      ],
+      "red_flags": ["Loss of vision", "Severe pain", "Blood in eye", "Penetrating injury"],
+      "source": ["Govt ophthalmology advisories", "Festival injury advisories"]
+    },
+    {
+      "id": "electrocution",
+      "category": "⚡ Electric",
+      "title": "Electrocution (household/short circuit)",
+      "summary": "Ensure scene safety before touching the person.",
+      "do_now": [
+        "Switch off main power or separate with a non-conductive object.",
+        "Check response and breathing; start CPR if not breathing normally.",
+        "Cover entry/exit burns; call 108/112."
+      ],
+      "red_flags": ["Unconscious", "Abnormal breathing", "Chest pain", "Visible burns"],
+      "source": ["NDMA household safety", "MoHFW first-aid"]
+    },
+    {
+      "id": "firecracker_rules",
+      "category": "🎇 Festival",
+      "title": "Firecracker safety basics",
+      "summary": "Follow distance, clothing and dud rules.",
+      "do_now": [
+        "Use outdoors; keep water/sand nearby; supervise children.",
+        "Wear cotton; avoid loose synthetics; tie hair; remove flammables.",
+        "Do not relight a dud; soak used crackers before disposal."
+      ],
+      "source": ["PESO safety cards", "State festival advisories"]
+    },
+    {
+      "id": "road_crash",
+      "category": "🚘 Road",
+      "title": "Road crash: first response",
+      "summary": "Make the scene safe and control bleeding early.",
+      "do_now": [
+        "Ensure safety; hazard lights; call 112/108.",
+        "Do not move the injured unless immediate danger.",
+        "Apply direct pressure to bleeding wounds with clean cloth.",
+        "Watch airway/breathing; be ready to do CPR."
+      ],
+      "source": ["NDMA road safety", "MoHFW first responder"]
+    }
+  ]
+}
