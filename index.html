@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accident Aid India</title>
+  <meta name="description" content="Offline-first emergency quick guides for India: burns, eye injury, electrocution, road crashes, fireworks safety, helplines 112/108."/>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <meta name="theme-color" content="#0f172a">
+</head>
+<body>
+<header class="topbar">
+  <img src="assets/logo.svg" alt="" class="logo">
+  <h1 id="appTitle">Accident Aid India</h1>
+  <select id="langSelect" aria-label="Select language"></select>
+</header>
+
+<main class="container">
+  <section class="hero" role="region" aria-label="Intro">
+    <h2 id="heroTitle">Stay safe. Act fast.</h2>
+    <p id="heroSubtitle">Tap a scenario to see what to do right now.</p>
+    <div class="cta-row">
+      <a class="btn emergency" href="tel:112">Call 112</a>
+      <a class="btn ambulance" href="tel:108">Call 108</a>
+    </div>
+    <p class="disclaimer" id="disclaimerText">
+      Information for general awareness; not a substitute for professional medical advice or emergency response.
+    </p>
+  </section>
+
+  <section>
+    <input id="searchInput" type="search" placeholder="Search scenarios…" aria-label="Search scenarios"/>
+    <div id="cards" class="grid"></div>
+  </section>
+
+  <section class="sources">
+    <details>
+      <summary>About & Sources</summary>
+      <p id="sourceBadge">Aligned with NDMA/MoHFW/PESO basics • Works offline • No data collected</p>
+      <p><a href="privacy.html">Privacy & Disclaimer</a></p>
+    </details>
+  </section>
+</main>
+
+<footer class="footer">
+  <small>&copy; 2025 Accident Aid India (Community Project)</small>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
